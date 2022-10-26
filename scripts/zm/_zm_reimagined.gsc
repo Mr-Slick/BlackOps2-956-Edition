@@ -229,7 +229,7 @@ post_all_players_spawned()
 	level.equipment_turret_needs_power = 0;
 	level.equipment_subwoofer_needs_power = 0;
 	level.limited_weapons["ray_gun_zm"] = undefined;
-	level.limited_weapons["raygun_mark2_zm"] = 1;
+	level.limited_weapons["raygun_mark2_zm"] = undefined;
 	level.zombie_weapons["slipgun_zm"].upgrade_name = "slipgun_upgraded_zm";
 	level.zombie_weapons_upgraded["slipgun_upgraded_zm"] = "slipgun_zm";
 	level.zombie_vars["emp_stun_range"] = 420;
