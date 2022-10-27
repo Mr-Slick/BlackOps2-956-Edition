@@ -178,7 +178,7 @@ get_upgraded_ammo_cost( weapon_name )
 		return level.zombie_weapons[ weapon_name ].upgraded_ammo_cost;
 	}
 
-	return 2500;
+	return 2000;
 }
 
 makegrenadedudanddestroy()

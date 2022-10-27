@@ -40,7 +40,7 @@ gain_interest_after_rounds()
 
 bank_deposit_box()
 {
-	level.bank_deposit_max_amount = 250000;
+	level.bank_deposit_max_amount = 999999;
 	level.bank_deposit_ddl_increment_amount = 1000;
 	level.bank_account_max = level.bank_deposit_max_amount / level.bank_deposit_ddl_increment_amount;
 	level.bank_account_increment = int( level.bank_deposit_ddl_increment_amount / 1000 );

@@ -88,7 +88,7 @@ init()
 	}
 	else
 	{
-		level.player_starting_health = 150;
+		level.player_starting_health = 200;
 	}
 
 	setscoreboardcolumns_gametype();
@@ -224,7 +224,7 @@ post_all_players_spawned()
 	level.magicbox_timeout = 9;
 	level.packapunch_timeout = 12;
 	level.perk_purchase_limit = 9;
-	level._random_zombie_perk_cost = 2500;
+	level._random_zombie_perk_cost = 1250;
 	level.equipment_etrap_needs_power = 0;
 	level.equipment_turret_needs_power = 0;
 	level.equipment_subwoofer_needs_power = 0;

@@ -272,7 +272,7 @@ initialize_custom_perk_arrays()
 	}
 
 	level._custom_perks["specialty_movefaster"] = spawnStruct();
-	level._custom_perks["specialty_movefaster"].cost = 2500;
+	level._custom_perks["specialty_movefaster"].cost = 2000;
 	level._custom_perks["specialty_movefaster"].alias = "marathon";
 	level._custom_perks["specialty_movefaster"].hint_string = &"ZOMBIE_PERK_MARATHON";
 	level._custom_perks["specialty_movefaster"].perk_bottle = "zombie_perk_bottle_marathon";
